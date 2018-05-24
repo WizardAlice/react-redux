@@ -1,13 +1,15 @@
 import React,{ Component } from 'react';
 import ReactDOM from 'react-dom';
+import Button from '../basicComponents/Button'
 
 class Title extends Component{
   render(){
-    return <h1>111</h1>
+    return (<div>
+      <Button onClick={()=> console.log(111)} type="dangerous">123</Button>
+    </div>)
   }
 }
 
-let TTitle = ({title}) => <h1>{title}</h1>
 
-ReactDOM.render(<TTitle title="React"/>, document.getElementById('root'))
+ReactDOM.render(<Title title="React"/>, document.getElementById('root'))
 
