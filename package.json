@@ -21,10 +21,13 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "json-loader": "^0.5.7",
     "node-sass": "^4.9.0",
+    "prop-types": "^15.6.1",
     "raw-loader": "^0.5.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
+    "redux": "^4.0.0",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
@@ -33,6 +36,7 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.24.1",
+    "request": "^2.87.0",
     "webpack-cli": "^2.1.3"
   }
 }
